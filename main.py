@@ -1,5 +1,21 @@
 adjective0 = input("Give me an adjective: ")
 noun0 = input("Give me a noun: ")
+plural_noun0 = input("Give me a plural noun: ")
+fem_person = input("Give me a female person in the room: ")
+adjective1 = input("Give me another adjective: ")
+clothing = input("Give me an article of clothing: ")
+noun1 = input("Give me one more noun: ")
+city = input("Give me a city: ")
+plural_noun1 = input("Give me another plural noun: ")
+adjective2 = input("Give me an adjective: ")
+noun2 = input("Give me an noun: ")
+adjective3 = input("Give me another adjective: ")
+plural_noun2 = input("Give me one more plural noun: ")
+place = input("Give me a place: ")
+verb0 = input("Give me a verb: ")
+noun3 = input("Give me another noun: ")
+verb1 = input("Give me one more verb: ")
 
-story = f"There are many {adjective0} ways to choose a/n {noun0} to read."
+
+story = f"There are many {adjective0} ways to choose a/n {noun0} to read. First, you could ask for recommendations from your friends and {plural_noun0}. Just don't ask Aunt {fem_person}--she only reads {adjective1} books with {clothing}-ripping goddesses on the cover. If you friends and family are no help, try checking out the {noun1} Review in 'The {city} Times.' If the {plural_noun1} featured there are too {adjective2} for your taste, try something a little more classy, like 'Pride and {noun2}' Another {adjective3} part of reading is {plural_noun2}! Go to {place} and {verb0} some yummy {noun3}. Now sit back, relax, and {verb1} reading!"
 print(story)
